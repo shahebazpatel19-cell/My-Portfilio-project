@@ -1,0 +1,70 @@
+*{
+    margin: auto;
+    background-color: cyan;
+    
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f5ebdc;
+}
+
+/* Navbar */
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 80px;
+}
+
+.logo{
+    font-size:22px;
+    font-weight:bold;
+}
+
+ul{
+    display:flex;
+    list-style:none;
+}
+
+ul li{
+    margin-left:25px;
+}
+
+ul li a{
+    text-decoration:none;
+    color:#555;
+}
+
+/* Hero Section */
+.hero{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:60px;
+}
+
+.image-box img{
+    width:180px;
+    height:180px;
+    border-radius:50%;
+    object-fit:cover;
+}
+
+.text-box h1{
+    font-size:45px;
+    color:#444;
+    margin-bottom:15px;
+}
+
+.text-box p{
+    font-size:25px;
+    color:#666;
+}
